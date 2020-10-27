@@ -1,0 +1,11 @@
+Hi {{name}},
+
+We're writing to let you know that your __APP_NAME__ Pro membership has ended.
+
+You can restart your subscription at any time by logging into __APP_NAME__ and going to your settings page at https://talksyncapp.com/settings/membership
+
+And of course you can continue to use __APP_NAME__ as a Basic member.
+
+Thanks again for using __APP_NAME__!
+
+-- The __APP_NAME__ team

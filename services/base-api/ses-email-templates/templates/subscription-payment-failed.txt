@@ -1,0 +1,9 @@
+Hi {{name}},
+
+We're writing to let you know that the payment for your __APP_NAME__ Pro membership has failed.
+
+You'll be prompted to update your payment information next time you log in. Or you can do it right now by clicking here: https://talksyncapp.com/settings/payment
+
+Thanks again for using __APP_NAME__!
+
+-- The __APP_NAME__ team
