@@ -11,7 +11,8 @@ export const main = handler(async (event, context) => {
   const userPoolId = config.userPoolId;
   const now = new Date().getTime();
 
-  const user = await dynamoDbLib.getUser({ userId });
+  await dynamoDbLib.getUser({ userId });
+
   const updateParams = {
     TableName: 'users',
     Key: { userId },

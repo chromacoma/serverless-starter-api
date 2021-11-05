@@ -10,8 +10,8 @@ export const main = (event, context, callback) => {
   ) {
     const link =
       event.triggerSource === 'CustomMessage_SignUp'
-        ? 'https://talksyncapp.com/signup/confirmation'
-        : 'https://talksyncapp.com/settings/email/confirmation'; // Ensure that your message contains event.request.codeParameter. This is the placeholder for code that will be sent
+        ? '__APP_SIGNUP_COMFIRMATION_URI__'
+        : '__APP_CHANGE_EMAIL_COMFIRMATION_URI__'; // Ensure that your message contains event.request.codeParameter. This is the placeholder for code that will be sent
 
     event.response.smsMessage = 'Welcome to the __APP_NAME__! Your confirmation code is ' + event.request.codeParameter;
     event.response.emailSubject = '__APP_NAME__ verification code';

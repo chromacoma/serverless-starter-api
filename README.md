@@ -34,6 +34,7 @@ Replace the following constants:
 ```bash
 __PACKAGE_NAME__
 __APP_NAME__
+__AWS_REGION__
 __DEV_USER_POOL_ID__
 __DEV_S3_FILES_BUCKET__
 __DEV_CONTACT_EMAIL__
